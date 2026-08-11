@@ -8,4 +8,4 @@ app = Flask(__name__)
 @app.route("/")
 def home() -> str:
     """Home function."""
-    return "Home"
+    return "Home again"
