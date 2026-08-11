@@ -36,6 +36,10 @@ FROM python:3.13-slim AS app
 ENV PYTHONFAULTHANDLER=1
 ENV PYTHONUNBUFFERED=1
 
+# Set the virtual environment path and add it to the PATH
+ENV VIRTUAL_ENV=/opt/venv
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
 # Remove docker-clean so we can manage the apt cache with the Docker build cache.
 RUN rm /etc/apt/apt.conf.d/docker-clean
 
