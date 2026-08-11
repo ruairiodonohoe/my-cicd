@@ -1,8 +1,8 @@
-site_name: my-cicd
+site_name: my_cicd
 site_description: Test CICD
-site_url: https://ruairiodonohoe.github.io/my-cicd
-repo_url: https://github.com/ruairiodonohoe/my-cicd
-repo_name: ruairiodonohoe/my-cicd
+site_url: https://ruairiodonohoe.github.io/my_cicd
+repo_url: https://github.com/ruairiodonohoe/my_cicd
+repo_name: ruairiodonohoe/my_cicd
 
 strict: true
 

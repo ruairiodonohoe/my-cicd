@@ -1,3 +1,3 @@
-# my-cicd
+# my_cicd
 
 Test CICD

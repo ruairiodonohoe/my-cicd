@@ -3,9 +3,9 @@ _src_path: gh:superlinear-ai/substrate
 author_email: ruairiodonohoe@gmail.com
 author_name: Ruairi O'Donohoe
 project_description: Test CICD
-project_name: my-cicd
+project_name: my_cicd
 project_type: app
-project_url: https://github.com/ruairiodonohoe/my-cicd
+project_url: https://github.com/ruairiodonohoe/my_cicd
 python_version: '3.13'
 typing: strict
 with_conventional_commits: false

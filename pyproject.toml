@@ -3,7 +3,7 @@ requires = ["uv_build>=0.9.18,<0.10.0"]
 build-backend = "uv_build"
 
 [project]  # https://packaging.python.org/en/latest/specifications/pyproject-toml/
-name = "my-cicd"
+name = "my_cicd"
 version = "0.0.0"
 description = "Test CICD"
 readme = "README.md"
@@ -17,11 +17,11 @@ dependencies = [
 ]
 
 [project.urls]  # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels
-homepage = "https://github.com/ruairiodonohoe/my-cicd"
-source = "https://github.com/ruairiodonohoe/my-cicd"
-releasenotes = "https://github.com/ruairiodonohoe/my-cicd/releases"
-documentation = "https://ruairiodonohoe.github.io/my-cicd"
-issues = "https://github.com/ruairiodonohoe/my-cicd/issues"
+homepage = "https://github.com/ruairiodonohoe/my_cicd"
+source = "https://github.com/ruairiodonohoe/my_cicd"
+releasenotes = "https://github.com/ruairiodonohoe/my_cicd/releases"
+documentation = "https://ruairiodonohoe.github.io/my_cicd"
+issues = "https://github.com/ruairiodonohoe/my_cicd/issues"
 
 [dependency-groups]  # https://docs.astral.sh/uv/concepts/projects/dependencies/#development-dependencies
 dev = [

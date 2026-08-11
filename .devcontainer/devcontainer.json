@@ -1,5 +1,5 @@
 {
-    "name": "my-cicd",
+    "name": "my_cicd",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "devcontainer",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/",

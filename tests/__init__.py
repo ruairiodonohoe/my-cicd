@@ -1,1 +1,1 @@
-"""my-cicd test suite."""
+"""my_cicd test suite."""
