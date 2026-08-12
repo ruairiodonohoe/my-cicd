@@ -36,6 +36,9 @@ FROM python:3.13-slim AS app
 ENV PYTHONFAULTHANDLER=1
 ENV PYTHONUNBUFFERED=1
 
+ENV VIRTUAL_ENV=/workspaces/my_cicd/.venv
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
 # Remove docker-clean so we can manage the apt cache with the Docker build cache.
 RUN rm /etc/apt/apt.conf.d/docker-clean
 
