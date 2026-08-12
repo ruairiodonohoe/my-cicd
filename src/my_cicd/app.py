@@ -11,5 +11,5 @@ def home() -> str:
     return "Home again"
 
 
-if __name__ == "main": # pragma: no cover
+if __name__ == "main":  # pragma: no cover
     app.run()
