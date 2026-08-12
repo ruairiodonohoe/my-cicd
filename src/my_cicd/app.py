@@ -9,3 +9,7 @@ app = Flask(__name__)
 def home() -> str:
     """Home function."""
     return "Home again"
+
+
+if __name__ == "main": # pragma: no cover
+    app.run()
