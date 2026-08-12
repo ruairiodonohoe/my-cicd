@@ -74,5 +74,5 @@ RUN --mount=type=cache,uid=1000,gid=1000,target=/home/user/.cache/uv \
     --python-preference only-system
 
 # Expose the app.
-ENTRYPOINT ["/workspaces/my_cicd/.venv/bin/poe"]
-CMD ["serve"]
+ENTRYPOINT [".venv/bin/flask", "--app", "src/my_cicd/app.py", "run"]
+CMD ["--host=0.0.0.0", "--port=5000"]
